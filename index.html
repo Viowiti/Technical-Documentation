@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Python Technical Documentation</title>
+</head>
+<body>
+    <div class="container">
+    <nav id="navbar">
+        <header>
+            <h1>Python</h1>
+        </header>
+        <div><a href="#What_Is_Python" class="nav-link">What Is Python</a></div>
+        <div><a href="#Origin_Of_Python" class="nav-link">Origin Of Python</a></div>
+        <div><a href="#Why_Python" class="nav-link">Why Python</a></div>
+        <div><a href="#Hello_World" class="nav-link">Hello World</a></div>
+        <div><a href="#Lines_And_Indentation" class="nav-link">Lines And Indentation</a></div>
+        <div><a href="#Comments" class="nav-link">Comments</a></div>
+        <div><a href="#Variables" class="nav-link">Variables</a></div>
+        <div><a href="#Learn_More" class="nav-link">Learn More</a></div>
+
+    </nav>
+
+    <main id="main-doc">
+
+        <section class="main-section" id="What_Is_Python">
+            <header>
+                <h3>What is Python</h3>
+            </header>
+            <p>Python is a high-level, interpreted, interactive and object-oriented scripting language.</p>
+            <p> Python is designed to be highly readable.</p>
+            <p>It uses English keywords frequently where as other languages use punctuation, and it has fewer syntactical constructions than other languages.</p>
+
+
+        </section>
+
+        <section class="main-section" id="Origin_Of_Python">
+            <header>
+                <h3>Origin Of Python</h3>
+            </header>
+            <p>Python was developed by Guido van Rossum in the late eighties and early nineties at the National Research Institute for Mathematics and Computer Science in the Netherlands.</p>
+            <p>He named it after a popular 90's band called Monty Python</p>
+            <p>Python is now maintained by a core development team at the institute, although Guido van Rossum still holds a vital role in directing its progress.</p>
+
+        </section>
+
+        <section class="main-section" id="Why_Python">
+            <header>
+                <h3>Why Python</h3>
+            </header>
+            <p>Python is mostly recommended because:</p>
+            <ul>
+                <li>Easy-to-learn − Python has few keywords, simple structure, and a clearly defined syntax. This allows the student to pick up the language quickly.</li>
+                <li>Easy-to-read − Python code is more clearly defined and visible to the eyes.</li>
+                <li>Easy-to-maintain − Python's source code is fairly easy-to-maintain.</li>
+                <li>A broad standard library − Python's bulk of the library is very portable and cross-platform compatible on UNIX, Windows, and Macintosh.</li>
+                <li>Interactive Mode − Python has support for an interactive mode which allows interactive testing and debugging of snippets of code.</li>
+                <li>Portable − Python can run on a wide variety of hardware platforms and has the same interface on all platforms.</li>
+                <li>Extendable − You can add low-level modules to the Python interpreter. These modules enable programmers to add to or customize their tools to be more efficient.</li>
+                <li>Databases − Python provides interfaces to all major commercial databases.</li>
+                <li>GUI Programming − Python supports GUI applications that can be created and ported to many system calls, libraries and windows systems, such as Windows MFC, Macintosh, and the X Window system of Unix.</li>
+                <li>Scalable − Python provides a better structure and support for large programs than shell scripting.</li>
+            </ul>
+
+
+        </section>
+
+        <section class="main-section" id="Hello_World">
+            <header>
+                <h3>Hello World</h3>
+            </header>
+            <p>Unlike most other programming languages, printing to the console in python is very easy.</p>
+            <p>Hello World in python:</p>
+            <code>print("Hello, World!)</code>
+            <p>Just that and voilla!!</p>
+
+
+        </section>
+
+
+        <section class="main-section" id="Lines_And_Indentation">
+            <header>
+                <h3>Lines And Indentation</h3>
+            </header>
+            <p>Python provides no braces to indicate blocks of code for class and function definitions or flow control. Blocks of code are denoted by line indentation, which is rigidly enforced.</p>
+            <p>The number of spaces in the indentation is variable, but all statements within the block must be indented the same amount. For example −</p>
+            
+                <code>
+                    <pre style="color: yellow;">
+                if True:
+                    print "True"
+                else:
+                    print "False"
+                </pre>
+                </code>
+           
+            <p>
+                However, the following block generates an error −
+            </p>
+            <pre>
+                <code style="color: red;">
+                    if True:
+                    print "Answer"
+                    print "True"
+                    else:
+                    print "Answer" 
+                    print "False" 
+                </code>
+            </pre>
+
+
+        </section>
+
+        <section class="main-section" id="Comments">
+            <header>
+                <h3>Comments</h3>
+            </header>
+            <p>Comments in python are preceded by the '#' character.</p>
+            <p>Comments are a part of code that the interpreter ignores.</p>
+            <p>They are a great tool for testing and documenting code</p>
+            <pre>
+            <code>
+                # This is a comment. 
+                # This is a comment, too.
+                # This is a comment, too.
+                # I said that already.
+                # Did I? 
+                # Lastly...... 
+                # Hulkamania is running wild!
+            </code>
+            </pre>
+
+
+        </section>
+
+        <section class="main-section" id="Variables">
+            <header>
+                <h3>Variables</h3>
+            </header>
+            <p>Python variables do not need explicit declaration to reserve memory space. The declaration happens automatically when you assign a value to a variable. The equal sign (=) is used to assign values to variables.</p>
+            <p>The operand to the left of the = operator is the name of the variable and the operand to the right of the = operator is the value stored in the variable. For example −</p>
+            <pre>
+                <code>
+                    counter = 100          # An integer assignment
+                    miles   = 1000.0       # A floating point 
+                    name    = "John"       # A string 
+                </code>
+            </pre>
+        </section>
+
+
+        </section>
+
+
+        <section class="main-section" id="Learn_More">
+            <header>
+                <h3>Learn More</h3>
+
+                </header>
+            <p>Learn more about python using the following resources:</p>
+            <ul>
+                <li><a href="https://docs.python.org/">Official Python Documentation</a></li>
+                <li><a href="https://www.tutorialspoint.com/python/index.htm">Tutorialspoint</a></li>
+                <li><a href="https://www.w3schools.com/python/">W3Schools</a></li>
+                <li><a href="https://www.freecodecamp.org/news/the-best-way-to-learn-python-python-programming-tutorial-for-beginners/">FreeCodeCamp</a></li>
+                <li><a href="https://www.youtube.com/watch?v=_uQrJ0TkZlc">Youtube Series</a></li>
+            </ul>
+            
+            <code>Lets learn Automation!!</code>
+        </section>
+        <div class="author">Made by <a  href="https://twitter.com/Dev__Vic" title="My Twitter">@Dev__Vic</a></div>
+    </main>
+</div>
+</body>
+</html>
